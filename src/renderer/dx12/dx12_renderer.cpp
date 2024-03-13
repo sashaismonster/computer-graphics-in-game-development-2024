@@ -46,7 +46,7 @@ void cg::renderer::dx12_renderer::destroy()
 	wait_for_gpu();
 	CloseHandle(fence_event);
 }
-
+//
 void cg::renderer::dx12_renderer::update()
 {
 	auto now = std::chrono::high_resolution_clock::now();
